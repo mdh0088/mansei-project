@@ -1,0 +1,27 @@
+{
+  "name": "mansei-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.4",
+    "nuxt": "^3.8.4"
+  },
+  "dependencies": {
+    "@element-plus/nuxt": "^1.1.2",
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/core": "^10.5.0",
+    "@vueuse/nuxt": "^10.5.0",
+    "element-plus": "^2.9.11",
+    "pinia": "^2.1.7"
+  }
+}
